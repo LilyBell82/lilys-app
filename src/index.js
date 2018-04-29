@@ -42,7 +42,7 @@ onClick={() => this.handleClick(i)}
     const winner = calculateWinner(this.state.squares);
     let status;
     if (winner) {
-      status = 'Winner: ' + winner;
+      status = 'Winner: is always Lily';
     } else {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }
